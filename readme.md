@@ -10,7 +10,7 @@ The design intent for this board was to make a DIY accessible PCB that can be mo
 
 ### What is PiFire? 
 
-PiFire is a SBC based Pellet Smoker Controller.  More details can be found [here](https://nebhead.github.io/pifire) or [at the GitHub repo](https://github.com/nebhead/pifire). 
+PiFire is a SBC based Pellet Smoker Controller.  More details can be found [here](https://nebhead.github.io/PiFire) or [at the GitHub repo](https://github.com/nebhead/pifire). 
 
 ## What's in this Repository?
 
