@@ -1,12 +1,12 @@
 # PiFire ADS1x15 Module PCB KiCad Files
 
-![](pifire-ads-board.jpg)
+![](board.jpg)
 
 ## What is this? 
 
 This PCB provides an easy way to add an ADS1x15 module to your PiFire build.  This allows you to have up to four different modules in your system, and can be chained together via I2C.  Use the solder jumpers to select a unique I2C address for each of the modules in your system (default is 0x48).  The PCB provides options for JST XH connectors or screw terminals (or if you want to solder wires directly to the board you can always do that too).  Lastly, there are boxes where you can designate the value of the populated resistors, for easy reference once you've built it out.  
 
-The design intent for this board was to make a DIY accessible PCB that can be more easily put together by the maker/enthusiast of almost any skill level.  Full size components are used in most cases and most (if not all) parts should be readily available to order online.  See the Interactive BOM for more details about the parts used and links to order.
+The design intent for this board was to make a DIY accessible PCB that can be more easily put together by the maker/enthusiast of almost any skill level.  Full size components are used in most cases and most (if not all) parts should be readily available to order online.  See the [Interactive BOM](#interactive-bom) for more details about the parts used and links to order.
 
 ### What is PiFire? 
 
@@ -38,3 +38,22 @@ If you wish to get these PCBs made by JLCPCB, the production files are provided 
 Drop the zip file onto the order page, wait for it to upload then simply continue to order the board.  Optionally, select different board color, PCB quantity, surface finish, etc.  Most of the default settings should be sufficient. 
 
 ![JLCPCB Order Page](jlcpcb.png)
+
+### Links to the PCBs in this family of PiFire Boards
+
+This PCB is part of a family of PCBs that can be used together to create  a full PiFire system.  Generally speaking you need the Main Module/Board, a Relay Control Board and a Probe Device board to have a basic PiFire system.  
+
+**Main Module/Board** (required)
+* [Main Board v4.0.x](https://github.com/nebhead/pifire-main-module-nopwr)
+
+**Relay/Fan Control Boards** (choose one)
+* [Mechanical Relay Module](https://github.com/nebhead/pifire-relay-module)
+* [Solid State Relay Module](https://github.com/nebhead/pifire-relay-module-SSR)
+* [Solid State Relay + PWM Fan Module](https://github.com/nebhead/pifire-relay-pwm-module-SSR) - Coming Soon! 
+
+**Probe Device Board** (optional)
+* [ADS Board](https://github.com/nebhead/pifire-ads-board) 
+
+### 3D Printable Enclosures/Boxes 
+
+There aren't currently any 3D printable enclosures ready for this board.  When those are available, they will be linked here.  
