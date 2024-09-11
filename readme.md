@@ -31,6 +31,18 @@ Preview the schematic in PDF format here: [Schematic](pifire-ads-board-schematic
 
 ![Schematic PNG](schematic.png)
 
+### PCB Specific Notes
+
+#### Mounting ADS1115 Device
+
+This intention of this PCB is to have a ADS1115 (or ADS1015) mounted to the top of this board.  You can attach this with a standard pin-header, or directly attaching with solder only.  (see the diagram below showing the ADS1115 attached in the yellow dotted line area)
+
+![Mounting](/img/PiFire-PCB-v4-ADS-Mounting.png)
+
+#### Selecting I2C Address
+
+In addition, you may be able to have up to four of these boards in a single system by assigning different I2C addresses to each device.  These addresses can be selected by using the solder jumpers provided at the bottom of the board.  Simply select the address you want and close/short the solder jumper for that address.  
+
 ### JLCPCB Production Files
 
 If you wish to get these PCBs made by JLCPCB, the production files are provided in the `/production` folder.  For convenience, the file `pifire-ads-board-production.zip` can simply be uploaded to JLCPCB to make it super easy to order boards.
@@ -56,4 +68,16 @@ This PCB is part of a family of PCBs that can be used together to create  a full
 
 ### 3D Printable Enclosures/Boxes 
 
-There aren't currently any 3D printable enclosures ready for this board.  When those are available, they will be linked here.  
+With all of the 3D Prints for PiFire, a higher temperature filament such as PETG should be used.  PLA generally won't stand up to the temperatures that the components may be exposed to outdoors and near a hot smoker.  
+
+#### Enclosure
+
+Included here is an initial revision of the enclosure for this PCB.  The current models should be considered still in development and may have alignment challenges, etc. 
+
+Except for the mounting wings, the majority of bolts to be used with this enclosure are M3. 
+
+![Enclosure](/img/PiFire-PCB-v4-ADS-Enclosure.png)
+
+* STL: [Base](/printables/PiFire-PCB-v4-ADS-Base.stl)
+* STL: [Lid](/printables/PiFire-PCB-v4-ADS-Lid.stl)
+* OnShape: [Enclosure Original Models](https://cad.onshape.com/documents/06ff4784dfd59b5ba448a771/w/ff8c53d96188935699d945ec/e/67f72d5e3136186b90fce856?renderMode=0&uiState=66e1183808b48b5751063bbb)
